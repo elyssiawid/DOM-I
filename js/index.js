@@ -90,9 +90,10 @@ button.textContent = siteContent["cta"]["button"]
 const navElement = document.getElementsByTagName("nav")
 const prependLink = document.createElement("A");
 prependLink.href = '#';
-const textpreLink = document.createTextNode('Hello')
+const textpreLink = document.createTextNode('Hi Marguel!')
 prependLink.appendChild(textpreLink);
-document.querySelector('nav').prepend('hello');
+document.querySelector('nav').prepend('Hi Marguel!');
+
 
 //(iName) receives the nav bar item name
 let createNode = iName => {
